@@ -9,7 +9,10 @@
   </head>
   <body>
     <nav class="bg-purple-800 text-white flex justify-between">
-      <img src="./img/dp.jfif" class="h-10 pt-3 px-3 rounded-2xl" />
+      <div class="flex items-center space-x-10 mx-3">
+        <span class="text-xl pl-3 font-bold">Re-Tech</span>
+        <img src="./img/dp.jfif" class="h-10 pt-3 px-3 rounded-2xl" />
+      </div>
       <ul class="px-28 py-4 flex space-x-3 justify-end">
         <li class="cursor-pointer">Home</li>
         <li class="cursor-pointer">About</li>
@@ -17,8 +20,8 @@
         <li class="cursor-pointer">Contact Us</li>
       </ul>
     </nav>
-    <main>
-      <div class="main bg-fuchsia-100 py-40 pl-9">
+    <main class="bg-fuchsia-100 flex justify-around">
+      <div class="main py-40 pl-9">
         <div class="text-6xl">The best phones in town</div>
         <p class="py-3 w-1/3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ab
@@ -26,16 +29,25 @@
           qui excepturi dolor error officia tempore, impedit ullam libero
           expedita.
         </p>
-        <button
-          class="bg-purple-800 px-2 py-3 rounded-full text-white hover:text-slate-900 hover:bg-fuchsia-700"
-        >
-          Buy Now
-        </button>
-        <button
-          class="bg-purple-800 px-2 py-3 rounded-full text-white hover:text-slate-900 hover:bg-fuchsia-700"
-        >
-          Contact US
-        </button>
+        <div class="my-4">
+          <button
+            class="bg-purple-800 px-2 py-3 rounded-full text-white hover:text-slate-900 hover:bg-fuchsia-700 mx-2"
+          >
+            Buy Now
+          </button>
+          <button
+            class="bg-purple-800 px-2 py-3 rounded-full text-white hover:text-slate-900 hover:bg-fuchsia-700 mx-2"
+          >
+            Contact US
+          </button>
+        </div>
+      </div>
+      <div class="flex items-center">
+        <img
+          src="./img/business-man-mobile-phone-clipart.svg"
+          alt="Man On Phone"
+          class="h-80"
+        />
       </div>
     </main>
   </body>
